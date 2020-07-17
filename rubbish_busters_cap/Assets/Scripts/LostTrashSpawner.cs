@@ -8,32 +8,28 @@ public class LostTrashSpawner : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI pointsTextResult;
 
-    private void Start()
+    public GameObject[] lostObjectArray;
+
+
+    void Start()
     {
+
         pointsTextResult.text = "Congratulation, you scored " + GlobalData.points.ToString() + "!...";
+
+        //int randomIndex = Random.Range(0, Trash.Length);
+        //GameObject currentObject = Instantiate(Trash[randomIndex], transform.position, Quaternion.identity);
+
+        //LastTrashSpown();
     }
-    //public GameObject[] lostObjectArray;
 
 
-    //// Start is called before the first frame update
-    //void Start()
+    //private void LastTrashSpown()
     //{
-    //    //int randomIndex = Random.Range(0, Trash.Length);
-    //    //GameObject currentObject = Instantiate(Trash[randomIndex], transform.position, Quaternion.identity);
-    //    for (int i = 0; i < GlobalData.lostTrashIndex.Length; i++)
-    //    {
+    //    //for (int i = 0; i < GlobalData.lostTrashIndex.Length; i++)
+    //    //{
     //        //transform.position += new Vector3(0, 0, 0);
-    //        GameObject currentObject = Instantiate(lostObjectArray[GlobalData.lostTrashIndex[i]], transform.position, Quaternion.identity);
+    //        GameObject currentObject = Instantiate(lostObjectArray[GlobalData.lostTrashIndex[0]], transform.position, Quaternion.identity);
     //        currentObject.transform.position = new Vector3(0, 0, 0);
-    //    }
-
+    //    //}
     //}
-
-    //// Update is called once per frame
-    //void Update()
-    //{
-
-    //}
-
-
 }

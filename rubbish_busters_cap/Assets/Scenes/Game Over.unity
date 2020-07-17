@@ -1655,6 +1655,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointsTextResult: {fileID: 290851689}
+  lostObjectArray:
+  - {fileID: 4583542105533217557, guid: 2b17ee5c4b58c4f66881514766fc28f2, type: 3}
+  - {fileID: 8242881790838948124, guid: d1219c575749e4d2a8619e58766731d5, type: 3}
+  - {fileID: 188161851841964520, guid: f254b55f5dd0f4d7587a7f933976d99e, type: 3}
+  - {fileID: 8032061506653394176, guid: 7641dba47bc974f4b991f13e84e41b59, type: 3}
+  - {fileID: 5756451474758099, guid: 6b274069a6f464794af9f970950af56b, type: 3}
 --- !u!1 &1019939719
 GameObject:
   m_ObjectHideFlags: 0

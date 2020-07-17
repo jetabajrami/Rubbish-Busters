@@ -9,9 +9,9 @@ public class Trash : MonoBehaviour
     private float prviuseTime;
     public float fullTime = 2.0f;
 
-    public static int height = 12;
-    public static int width = 16;
-
+    public static int height = 30;
+    public static int width = 20;
+        
     private Rigidbody2D rb2D;
     //private float thrust = 100.0f;
 
